@@ -3,10 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
-# Use sqlite3 as the database for Active Record for dev env only
-group :development do
-  gem 'sqlite3'
-end
+gem 'sqlite3'
 
 # Gems used for assets and not required in production env
 group :assets do

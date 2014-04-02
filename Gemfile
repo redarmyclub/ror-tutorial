@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
+ruby '2.1.1'
+
 # Use SQLite3 for test and development only 
 group :development, :test do
   gem 'sqlite3'

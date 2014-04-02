@@ -8,6 +8,11 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+# Use PostGreSQL in prod
+group :production do
+  gem 'pg'
+end
+
 # Gems used for assets and not required in production env
 group :assets do
 # Use SCSS for stylesheets
